@@ -7,16 +7,20 @@ start.sh: see note
 conf/default.vcl: config .host
 
 2 Install, start, close, reload configuration
+```
 >> sh install.sh
 >> sh start.sh # Start the service
 >> sh stop.sh # Shut down the service
 >> ps -ef | grep varnish # Confirm whether the service process is started
 >> docker logs varnish # Start failed to view the log
 >> sh reload-vcl.sh # Reload configuration
+```
 
 # Help
 1 View service status (common indicators have been filtered)
+```
 >> sh stat.sh
+```
 
 2 How to confirm whether the request is cached or obtained from the source?
 1) View the response: header X-Hits hit age
