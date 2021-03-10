@@ -2,8 +2,8 @@
 This project can be used as an out-of-the-box module, quickly use Varnish to build a reference http cache module.
 
 # Quick Start
-1 Configuration 
-start.sh: see note
+1 Configuration  
+start.sh: see note  
 conf/default.vcl: config .host
 
 2 Install, start, close, reload configuration
